@@ -1,0 +1,53 @@
+body{
+    padding:40px;
+}
+h1{
+    font-size: 40px;
+}
+.box{
+    background-color: hsl(0, 10%, 94%) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.navbar{
+    background-color: #3296d7;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    word-spacing: 9px;
+    font-weight: 500;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size:30px ;
+    border-bottom: 1px dotted;
+    padding-bottom: 9px;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.first{
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.second{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 40px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 20px 0 5px 0; 
+    text-align: center;
+}

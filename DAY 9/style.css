@@ -1,0 +1,237 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi?styles=135009,135005,135007,135002,135000");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #0e0e0e;
+  color: wheat;
+  font-family: "Satoshi";
+}
+
+main {
+  width: 100%;
+}
+
+.view-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.view-1 img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.view-1 h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.2;
+}
+.view-1 p {
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  margin: 0.9rem 0;
+  opacity: 0.6;
+}
+.view-1 br {
+  display: none;
+}
+
+.my-services {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.my-services a {
+  text-decoration: none;
+  color: wheat;
+  opacity: 1;
+}
+.my-services a div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.my-services a div svg {
+  border: 1px solid wheat;
+  border-radius: 50%;
+  padding: 5px;
+}
+.my-services a div p {
+  font-size: 13px;
+  font-weight: 100;
+  word-spacing: 2px;
+}
+
+.view-2 {
+  width: 100%;
+  padding: 4rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+.view-2 .marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.view-2 .marquee::after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0e0e0e, transparent);
+  z-index: 2;
+}
+.view-2 .marquee::before {
+  content: "";
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(to left, #0e0e0e, transparent);
+  z-index: 2;
+}
+.view-2 .marquee .text {
+  display: flex;
+  gap: 3rem;
+  animation: marquee 10s linear infinite both;
+  padding: 0 1.5rem;
+}
+.view-2 .marquee p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.view-3-main {
+  margin-bottom: 4rem;
+}
+
+.view-3 {
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.view-3 .cont-3 {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid rgb(53, 47, 39);
+  background-color: rgba(133, 126, 113, 0.09);
+}
+.view-3 .cont-3 div {
+  font-weight: 100;
+}
+.view-3 .cont-3 div p:nth-child(2) {
+  font-size: 1.3rem;
+}
+.view-3 .cont-3 #disc {
+  margin-bottom: 20px;
+}
+.view-3 .cont-3 .view-3-about {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.view-3 .cont-3 .view-3-about a {
+  text-decoration: none;
+  color: wheat;
+  opacity: 1;
+}
+.view-3 .cont-3 .view-3-about a div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.view-3 .cont-3 .view-3-about a div svg {
+  border: 1px solid wheat;
+  border-radius: 50%;
+  padding: 5px;
+}
+.view-3 .cont-3 .view-3-about a div p {
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.view-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  font-weight: 200;
+  padding: 0 1.5rem;
+}
+.view-4 .images-cont {
+  width: 100%;
+}
+.view-4 .images-cont div {
+  width: 100%;
+  border: 1px solid rgb(48, 47, 45);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.view-4 .images-cont div img {
+  width: 100%;
+}
+.view-4 .images-cont div .work-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgb(48, 47, 45);
+  position: absolute;
+  bottom: 15px;
+  width: 90%;
+  background-color: rgba(218, 197, 167, 0.05);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@media (min-width: 1020px) {
+  html {
+    font-size: clamp(16px, 1vw, 20px);
+  }
+  .view-1 img {
+    width: 28%;
+  }
+  .view-1 h1 {
+    font-size: 7rem;
+  }
+  .view-1 p {
+    font-size: 1.5rem;
+  }
+  .view-1 br {
+    display: block;
+  }
+  .view-2 .marquee {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
