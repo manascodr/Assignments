@@ -62,7 +62,9 @@
 //? 9. Create an array of 5 numbers and log the sum using .reduce().
 
 // let arr = [1,2,3,4,5]
-// let sum = arr.reduce(add)
+// let sum = arr.reduce(function(acc,val){
+//     return acc + val
+// } , 0 )
 // console.log(sum);
 
 
