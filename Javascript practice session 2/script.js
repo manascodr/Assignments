@@ -41,11 +41,46 @@
 
 //? 17. Find the second largest number in an array.
 
-let arr = [2,3,1,4,5]
-arr.sort(function(a,b){
-     
-})
+// let arr = [2,3,1,4,5]
+// let newarr =arr.sort(function(a,b){
+//     return b-a;
+// })
+
+// console.log(newarr[1]);
 
 //? 18. Sort an array in descending order.
+
+// let arr = [2,3,1,4,5]
+// let newarr =arr.sort(function(a,b){
+//     return b-a;
+// })
+
 //? 19. Reverse an array without using .reverse().
+
+// let arr = [1,2,3,4,5,6,7,8,8,12,321,32145]
+// let arr2 = [];
+
+// for (let i = arr.length-1; i >= 0; i--) {
+//     arr2.push(arr[i]); 
+// }
+// console.log(arr2);
+
 //? 20. Find the most frequent element in an array.
+
+// let arr = [3,4,1,3,4,6,7];
+// let obj = {}
+
+// arr.forEach(function(val){
+    //     if (obj[val]) {
+        //         obj[val]++
+        //     } else {
+            //         obj[val] = 1
+            //     }
+            // })
+            // console.log(obj);
+            
+
+// arr.forEach(function(val){
+//     obj[val] ? obj[val]++ : obj[val]=1;
+// })
+// console.log(obj)
