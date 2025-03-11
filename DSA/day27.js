@@ -22,7 +22,7 @@
 // b++;
 // console.log(b); //2
 
-//! 2 Complex Increment and Decrement Qperations
+//! 2 Complex Increment and Decrement operations
 
 //? Q5
 // let i = 1 , j= 2, k=3;
@@ -37,10 +37,9 @@ let a =1; b=2
 console.log(--b - ++a + ++b - --a); //0
 
 //? Q7
-let i = 19, j=29, k;
+// let i = 19, j=29, k;
+// k = i-- - i++ + --j - ++j + --j - j-- + ++j - j++;
+// console.log('i='+i); //19
+// console.log('j='+j); //29
+// console.log('k='+k); //0
 
-//? Q8
-//? Q9
-//? Q10
-//? Q11
-//? Q12
