@@ -137,3 +137,88 @@
 // } else {
 //     console.log('Non Neon Number');
 // }
+
+//? 11. Description: Find the sum of Fibonacci numbers at even indices up to the 2Nth fibonacci number.
+
+// let N = 4;
+// N = N * 2
+// a = 0
+// b = 1
+// let sum = 0;
+// let evenSum = 0;
+
+// for(let i = 0; i <= N; i++){
+
+//     if (i % 2 === 0) {
+//         evenSum += a; 
+//     }
+
+//     let  next = a + b 
+//     a = b
+//     b = next
+// }
+// console.log(evenSum);
+
+//? 12. Description: find the largest digit in a given number.
+
+// let num = 2356742
+// let largeNum = 0;
+
+// while(num>0){
+//     let rem = num%10
+//     if (rem>largeNum) {
+//         largeNum = rem
+//     }
+//     num = Math.floor(num/10)
+// }
+// console.log(`Largest Number is: ${largeNum}`);
+
+//? 13. Description: Find the Least Common Multiple (LCM) of two numbers.
+
+// let a = 12 , b = 15
+// let acopy =a , bcopy=b
+
+// while (b !== 0) {
+//     let temp = b;
+//     b = a % b;
+//     a = temp;
+// }
+// console.log(`LCM is: ${(acopy*bcopy)/a}`);
+
+//? 14. Description: Find the sum of all even digits in a given number.
+
+// let num = 23842
+// let sum = 0;
+
+// while(num>0){
+//     rem = num % 10
+//     if (rem%2===0) {
+//         sum +=rem
+//     }
+//     num = Math.floor(num/10)
+// }
+// console.log(sum);
+
+//? Description: find the number of days in a given month and year (to handle leap years).
+
+
+// let month = 2;
+// let year = 2024;
+// let days;
+
+// if (month === 2) {
+//     // Leap year check
+//     if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//         days = 29;
+//     } else {
+//         days = 28;
+//     }
+// } else if ([1, 3, 5, 7, 8, 10, 12].includes(month)) {
+//     days = 31;
+// } else if ([4, 6, 9, 11].includes(month)) {
+//     days = 30;
+// } else {
+//     days = "Invalid Month";
+// }
+
+// console.log(days);
