@@ -76,18 +76,15 @@
 //? 6. Description: Print Fibonacci series up to N terms using a loop.
 
 // let N = 14;
-// a = 0
-// b = 1
-// let sum = 0;
+// let a = 0, b = 1;
 
-// console.log(a)
-// for(let i = 0; i <= N-1; i++){
-//     next = a + b 
-//     a = b
-//     b = next
-//     console.log(next);
-    
+// for (let i = 0; i < N; i++) {
+//     console.log(a);
+//     let next = a + b;
+//     a = b;
+//     b = next;
 // }
+
 
 //? 7. Description: Find numbers that have exactly X divisors
 
@@ -144,10 +141,9 @@
 // N = N * 2
 // a = 0
 // b = 1
-// let sum = 0;
 // let evenSum = 0;
 
-// for(let i = 0; i <= N; i++){
+// for(let i = 0; i <=N; i++){
 
 //     if (i % 2 === 0) {
 //         evenSum += a; 
@@ -207,7 +203,7 @@
 // let days;
 
 // if (month === 2) {
-//     // Leap year check
+//      Leap year check
 //     if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
 //         days = 29;
 //     } else {
