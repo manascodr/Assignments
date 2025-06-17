@@ -56,3 +56,17 @@ nav .more .btn-2 {
   border-radius: 2rem;
   color: white;
 }
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+}
+.main .box {
+  width: 30%;
+  height: 50%;
+  background-color: aquamarine;
+}
